@@ -15,3 +15,4 @@ echo "ttl 255" >> /etc/network/interfaces
 echo "gateway 2001:470:1f04:7a4::1" >> /etc/network/interfaces
 /etc/init.d/networking restart
 sleep 1
+exit
