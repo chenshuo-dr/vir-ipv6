@@ -13,6 +13,5 @@ echo "endpoint 66.220.18.42" >> /etc/network/interfaces
 echo "local 107.175.21.170" >> /etc/network/interfaces
 echo "ttl 255" >> /etc/network/interfaces
 echo "gateway 2001:470:c:ad1::1" >> /etc/network/interfaces
-/etc/init.d/networking restart
 sleep 1
 exit
