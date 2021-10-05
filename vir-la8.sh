@@ -7,12 +7,12 @@ sysctl -p
 sleep 1
 echo "auto he-ipv6" >> /etc/network/interfaces
 echo "iface he-ipv6 inet6 v4tunnel" >> /etc/network/interfaces
-echo "address 2001:470:1f04:2c7::2" >> /etc/network/interfaces
+echo "address 2001:470:c:334::2" >> /etc/network/interfaces
 echo "netmask 64" >> /etc/network/interfaces
-echo "endpoint 72.52.104.74" >> /etc/network/interfaces
+echo "endpoint 66.220.18.42" >> /etc/network/interfaces
 echo "local 107.175.21.170" >> /etc/network/interfaces
 echo "ttl 255" >> /etc/network/interfaces
-echo "gateway 2001:470:1f04:2c7::1" >> /etc/network/interfaces
+echo "gateway 2001:470:c:334::1" >> /etc/network/interfaces
 /etc/init.d/networking restart
 sleep 1
 exit
